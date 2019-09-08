@@ -1,6 +1,6 @@
 # About
 
-- Desktop App based on client-server architecture used to manage a garden.
+- Desktop App based on client-server architecture(Sockets are used for communication) used to manage a garden.
 - there are 2 types of users: regular user(gardener) and administrator  
 	The regular user can perform the following operations:
 	- view graphically the garden
@@ -13,8 +13,14 @@
 	- generate report files	
 	- can accept/deny request
 	- etc.
-	
-# Database Design
+# Tools and Technologies used
+- Java 8
+- Lombok
+- Java Sockets
+- MySQL
+- PMD static analysis tool(there isn't a single best practice violation in the project)
+
+# Database Design(MySQL)
 
 ![image](https://user-images.githubusercontent.com/37183688/64489368-0dfc3480-d25b-11e9-8a8a-0d9064898160.png)
 
